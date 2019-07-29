@@ -1,0 +1,166 @@
+body {
+  background-image: url(./img/fundo03.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.main {
+  margin: 40px;
+  padding: 40px;
+  width: 90%;
+  height: 90%;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cabecalho {
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.titulo2 {
+  margin-top: 0;
+}
+
+.form-contato {
+  height: 450px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+/*CAMPO NOME*/
+.nome-sobrenome {
+  width: 750px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nome {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.Nome {
+  width: 300px;
+}
+
+.sobrenome {
+  width: 300px;
+}
+
+/*CAMPO EMAIL*/
+
+.email {
+  width: 750px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seu-email {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.email-valido {
+  width: 622px;
+}
+
+/*CAMPO FONE*/
+
+.fone {
+  width: 750px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.telefone {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.contato-telefonico {
+  width: 622px;
+}
+
+
+/*CAMPO ESTADOS*/
+
+.estados-brasil {
+  width: 750px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todos-estados {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.estados-brasileiros {
+  width: 626px;
+}
+
+
+/*CAMPO MENSAGEM*/
+
+.texto-caixa {
+  width: 750px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mensagem {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.texto {
+  width: 620px;
+  height: 150px;
+}
+
+/*CAMPO BOTÃO*/
+
+.botao {
+  width: 750px;
+  height: 35px;
+  display: flex;
+}
+
+.enviar {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+  margin-top: 150px;
+  margin-left: 650px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 110px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+
+}

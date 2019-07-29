@@ -1,14 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/style.css">
   <title>Formulario de Contato</title>
 </head>
 
 <body>
+
+  <div class="main">
+    <div class="cabecalho">
+      <h1 class="titulo">Formulário de Contato</h1>
+      <p class="titulo2">Por favor, preencha o formulário abaixo. Responderemos em breve.</p>
+    </div>
+    <div class="form-contato">
+      <form action="" method="post" class="from-principal">
+        <div class="nome-sobrenome">
+          <label for="Nome" class="nome">Nome: </label>
+          <input type="text" name="Name" class="Nome" placeholder="Seu nome">
+          <input type="text" name="Sobrenome" class="sobrenome" placeholder="Seu sobrenome">
+        </div>
+        <br>
+        <div class="email">
+          <label for="email" class="seu-email">E-mail: </label>
+          <input type="email" name="email" class="email-valido" placeholder="exemplo@contato.com">
+        </div>
+        <br>
+        <div class="fone">
+          <label for="celular" class="telefone">Celular: </label>
+          <input type="phone" name="phone" class="contato-telefonico" placeholder="Ex.: (00) 00000-0000" maxlength="15">
+        </div>
+        <br>
+        <div class="estados-brasil">
+          <label for="estados-br" class="todos-estados">Estado: </label>
+          <select id="estados-br" name="estados" class="estados-brasileiros">
+            <option value="" disabled selected></option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+          </select>
+        </div>
+        <br>
+        <div class="texto-caixa">
+          <label for="mensagem" class="mensagem">Mensagem: </label>
+          <textarea name="texto" id="texto1" cols="42" rows="6" class="texto"></textarea>
+        </div>
+        <br>
+        <div class="botao">
+          <input type="submit" name="submit" value="SALVAR" class="enviar">
+        </div>
+      </form>
+    </div>
+  </div>
 
 </body>
 
